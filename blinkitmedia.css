@@ -1,0 +1,35 @@
+@media (max-width:575.98px){
+  .cat { flex:0 0 25%!important; margin:0!important; padding:0!important; } /* 1 row me 4 items */
+  .cat img { width:80%!important; max-height:18vh!important; display:block; margin:0 auto; padding:0!important; }
+  .d-flex { gap:0!important; flex-wrap:wrap!important; justify-content:center!important; }
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+  .you { max-width:91%!important; margin:0 auto!important; }
+  .cat { flex:0 0 20%!important; margin:0!important; padding:0!important; } /* 1 row me 5 items */
+  .cat img { width:70%!important; max-height:22vh!important; display:block; margin:0 auto; padding:0!important; }
+  .d-flex { gap:0!important; flex-wrap:wrap!important; justify-content:center!important; }
+  .banner-section { margin-bottom:-5%!important; margin-left:3%!important; margin-right:3%!important; }
+  .secondcontainer { margin-bottom:-6.5%!important; margin-left:2%!important; margin-right:3%!important; }
+  .searh { display:none!important; }
+  .foottext { font-size:15px!important; font-weight:500!important; text-align:center!important; }
+  .nevmenu { margin-bottom:20px!important; }
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+  .you { max-width:95%!important; margin:0 auto!important; }
+  .cat img { width:100px!important; max-height:22vh!important; display:block; margin:0 auto; } /* center images for smoothness */
+  .cat { flex:0 0 auto!important; margin-right:1px!important; }
+  .banner-section { margin-bottom:-5%!important; margin-left:2.8%!important; margin-right:3%!important; }
+  .secondcontainer { margin-bottom:-5%!important; margin-left:1.7%!important; margin-right:3%!important; }
+  .searh { display:none!important; }
+  .foottext { font-size:15px!important; font-weight:500!important; text-align:center!important; }
+}
+
+@media (min-width:1200px){
+  .cat img { width:110px!important; max-height:22vh!important; display:block; margin:0 auto; } /* center images */
+  .cat { flex:0 0 auto!important; margin-right:1px!important; }
+  .banner-section { margin-bottom:-4%!important; }
+  .secondcontainer { margin-bottom:-4%!important; }
+  .searh { display:none!important; }
+}
